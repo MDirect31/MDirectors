@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>M Director</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <img onclick="window.location.href='index.html'" src="images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="course.html">Facilities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="blue" href="join.html">Learn More</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+
+    <section id="course-inner">
+        <div class="overview">
+            <img class="course-img" src="images/14.png" alt="">
+            <div class="course-head">
+                <div class="c-name">
+                    <h2>ATYCB Faculty Room</h2>
+                </div>
+            </div>
+
+            <hr>
+            <h3>Direction</h3>
+            <p>From the ground floor, proceed to the fifth floor using the Elevators/Central Staircase, 
+                then upon exiting turn right, toward the left side of the building. The ATYCB Faculty Room 
+                will be in the first room, on the left side of the hallway. </p>
+            <hr>
+        </div>
+
+
+    </section>
+
+
+
+    <footer>
+       
+        <div class="footer-col">
+            <h3>M DIRECTOR</h3>
+            <p>An online web-based navigation system that was created to 
+                improve the MMCM campus user experience by offering visitors, recently enrolled 
+                students, and regular students alike, quick, easy, and user-friendly navigation. 
+                M Directors guarantees easy navigation, saves time, and builds a sense of 
+                confidence and ease among the MMCM community with its user-friendly design, 
+                clear instructions, and support of campus exploration.</p>
+        </div>
+        
+        <div class="footer-col">
+            <h3>School</h3>
+            <li>History</li>
+            <li>Courses and Strands</li>
+            <li>Core Values</li>
+            <li>Mission and Vision</li>
+            
+        </div>
+
+        <div class="footer-col">
+            <h3>The Researchers</h3>
+            <li>Profile</li>
+            <li>Research</li>
+            <li>Methods</li>
+            <li>Purpose</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Popular Facilities</h3>
+            <li>Center for Health Services and Wellness</li>
+            <li>Teaching and Learning Facilities Office</li>
+            <li>Office for Research Development and Innovation</li>
+            <li>High School Faculty Room</li>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | M Director</p>
+            <div class="pro-link">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        $("#menu-btn").click(function() {
+            $("nav .navigation ul").addClass("active");
+        });
+        $("#menu-close").click(function() {
+            $("nav .navigation ul").removeClass("active");
+        });
+    </script>
+
+</body>
+
+</html>
